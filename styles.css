@@ -1,0 +1,67 @@
+
+@import "./assets/css/reset.css";
+@import "./assets/css/header.css";
+@import " ./assets/css/home.css";
+@import "./assets/css/skills.css";
+@import" ./assets/css/projects.css";
+@import "./assets/css/education.css";
+@import "./assets/css/hobbies.css";
+@import "./assets/css/contact.css";
+@import "./assets/css/footer.css";
+
+
+
+/*===== GOOGLE FONTS =====*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/*===== VARIABLES CSS =====*/
+:root {
+
+  --bg-color: #080808;
+  --second-bg-color: #131313;
+  --text-color: #ffffff;
+  --main-color: #6f74bb;
+}
+
+/*===== BASE =====*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+}
+
+html {
+  font-size: 70%;
+  overflow-x: hidden;
+}
+
+body {
+  background: var(--bg-color);
+  color: var(--text-color);
+}
+
+section {
+  min-height: 100vh;
+  padding: 5rem 0;
+  border-bottom: 1px solid var(--main-color);
+  width: 85%;
+  margin: 0 auto;
+  
+}
+
+span {
+  color: var(--main-color);
+}
+
+.heading {
+  font-size: 7rem;
+  text-align: center;
+  margin: 5rem 0;
+  letter-spacing: 2px;
+  color: var(--main-color);
+}

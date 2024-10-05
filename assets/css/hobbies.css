@@ -1,0 +1,63 @@
+@import "./styles.css";
+
+/* ==================== HOBBIES SECTION ==================== */
+
+.hobbies {
+    background-color: var(--bg-color);
+  }
+  
+  .hobbies .container {
+    background: var(--main-color);
+    color: var(--text-color);
+    border-radius: 1rem;
+    padding: 2rem;
+    width: 100%;
+    margin: auto;
+    margin-top: 2rem;
+  }
+  
+  .hobbies .container .row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    flex-wrap: wrap;
+    gap: 1.8rem;
+  }
+  
+  .hobbies .container .bar {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 1rem;
+    background: var(--bg-color);
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .hobbies .container .bar:hover {
+    box-shadow: 0 5px 10px rgb(255, 255, 255);
+    transform: scale(1.03);
+  }
+  
+  .hobbies .container .bar .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .hobbies .container .bar .info span {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-left: 0.5rem;
+    font-family: 'Poppins';
+  
+  }
+  
+  
+  .hobbies .container .bar .info img {
+    max-width: 100%;
+    height: 6rem;
+  
+  }
+  
+  

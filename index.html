@@ -1,26 +1,551 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ecommers website</title>
+    <title>Portfolio</title>
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!--Boxicons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!--Styles-->
+   <link rel="stylesheet" href="styles.css">
+
 </head>
+
 <body>
-    <header>
-        <h1>Ecommers</h1>
-        <nav>
-            <a href="">Home</a>
-            <a href="">Products</a>
-            <a href="">Contact</a>
+     <!--================HEADER=====================-->
+    <header class="header">
+        <img src="./assets/img/Losven-removebg-preview.png" alt="Logo" class="logo"/>
+
+       
+        <!--Section Navbar-->
+        <nav class="navbar">
+
+            <ul class="nav-items">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </nav>
+
+
     </header>
+     <!--================MAIN=====================-->
     <main>
-        <h2>Productos</h2>
+        <!--================Section Home=====================-->
+        <section class="home" id="home">
+
+           
+
+            <div class="home-content">
+
+                <h1>Hi! I'm <span>Mariana</span></h1>
+               
+
+                <ol class="home-items" >
+                    <li class="list">
+                      <h2 class="title">¿Quién soy?</h2>
+                      <p class="coment">
+                        Mi nombre es Mariana Salgueiro, tengo 52 años y 4 hermosos
+                        hijos. Siempre trabajé en el rubro de comercio, y después de
+                        tener a mi última hija me dediqué a ser mamá y ama de casa.
+                        Descubrí este rubro tan apasionante gracias a mis hijos. Empecé
+                        con el curso de Python inicial, y desde ahí no paré. Hice el de
+                        Fullstack Python, FullStack Node.js en Codo a Codo, y vi con
+                        Argentina Programa FullStack con React y Node.js en Epica.
+                        ¡Tengo mucho que aprender! Cada curso es un escalón más.
+                      </p>
+                    </li>
+        
+                    <li>
+                      <h2>¿De dónde soy?</h2>
+                      <p>
+                        De Bernal, Partido de Quilmes, Provincia de Buenos Aires, y vivo
+                        acá desde que nací.
+                      </p>
+        
+                      <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.45378040948!2d-58.30119965658769!3d-34.718954546209865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a32df3c02c3df9%3A0xaa1c884235b18ebe!2sLeandro%20N.%20Alem%2C%20B1876%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1727192225402!5m2!1ses!2sar"
+                        width="400" height="300" style="border: 0" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </li>
+        
+                    <li>
+                      <h2>¿Por qué decidí estudiar en Talento Tech?</h2>
+                      <p>
+                        Quiero continuar avanzando en los cursos. Aunque la modificación
+                        del sistema me implica volver a empezar, ¡espero poder llegar a
+                        los cursos más avanzados!
+                      </p>
+                    </li>
+        
+                    <li>
+                      <h2>¿Qué espero del curso?</h2>
+                      <p>Poder seguir ampliando mi conocimiento.</p>
+                    </li>
+                  </ol>
+                <div class="social-icons">
+                    <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+                    <a href="https://www.linkedin.com/in/mariana-salgueiro-29278a267/?originalSubdomain=ar"><i class='bx bxl-linkedin-square'></i></a>
+                    <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                    <a href="https://github.com/MLauraSal"><i class='bx bxl-github'></i></a>
+                </div>
+
+                <a href="#contact"   class="btn">Contact</a>
+
+
+            </div>
+
+        </section>
+
+        <!--================Section Skills=====================-->
+
+        <section class="skills_section" id="skills">
+            <h2 class="heading">Skills</h2>
+
+            <div class="skills_container">
+                <!--Skills 1-->
+                <div class="skills_content">
+                    <h3 class="skills_title"> <i class='bx bx-code-alt'></i> Frontend</h3>
+
+                    <div class="skills_info">
+
+                        <!-- 1 -->
+                        <div class="skills_data">
+                            <div class="skills_blob">
+                                <img src="./assets/img/html-1.svg" alt="HTML logo">
+                            </div>
+                            <h3 class="skills_name">HTML</h3>
+                            <span class="skills_subtitle">Intermedio</span>
+                        </div>
+                        <!-- 2 -->
+                        <div class="skills_data">
+                            <div class="skills_blob">
+                                <img src="./assets/img/css.svg" alt="CSS logo">
+                            </div>
+                            <h3 class="skills_name">CSS</h3>
+                            <span class="skills_subtitle">Intermedio</span>
+                        </div>
+                        <!-- 3 -->
+                        <div class="skills_data">
+                            <div class="skills_blob">
+                                <img src="./assets/img/logo-javascript.svg" alt="Javascript logo">
+                            </div>
+                            <h3 class="skills_name">Javascript</h3>
+                            <span class="skills_subtitle">Intermedio</span>
+                        </div>
+                        <!-- 4 -->
+                        <div class="skills_data">
+                            <div class="skills_blob">
+                                <img src="./assets/img/bootstrap-5-1.svg" alt="Bootstrap logo">
+                            </div>
+                            <h3 class="skills_name">Bootstrap</h3>
+                            <span class="skills_subtitle">Intermedio</span>
+                        </div>
+                        <!-- 5 -->
+                        <div class="skills_data">
+                            <div class="skills_blob">
+                                <img src="./assets/img/react-2.svg" alt="React logo">
+                            </div>
+                            <h3 class="skills_name">React</h3>
+                            <span class="skills_subtitle">Intermedio</span>
+                        </div>
+                        <!-- 6 -->
+                        <div class="skills_data">
+                            <div class="skills_blob">
+                                <img src="./assets/img/tailwind-css.svg" alt="tailwind css logo">
+                            </div>
+                            <h3 class="skills_name">Tailwind css</h3>
+                            <span class="skills_subtitle">Intermedio</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!--Skills 2-->
+                <div class="skills_content">
+
+                    <h3 class="skills_title"><i class='bx bx-data'></i> Backend</h3>
+
+
+                    <div class="skills_info">
+
+                        <!-- 1 -->
+                        <div class="skills_data">
+                            <div class="skills_blob">
+                                <img src="./assets/img/python-5.svg" alt="Python logo">
+                            </div>
+                            <h3 class="skills_name">Python</h3>
+                            <span class="skills_subtitle">Intermedio</span>
+                        </div>
+
+                        <!-- 2 -->
+                        <div class="skills_data">
+                            <div class="skills_blob">
+                                <img src="./assets/img/git-icon.svg" alt="GitHub logo">
+                            </div>
+                            <h3 class="skills_name">Git</h3>
+                            <span class="skills_subtitle">Intermedio</span>
+                        </div>
+
+                        <!-- 3 -->
+                        <div class="skills_data">
+                            <div class="skills_blob">
+                                <img src="./assets/img/github (1).svg" alt="GitHub logo">
+                            </div>
+                            <h3 class="skills_name">GitHub</h3>
+                            <span class="skills_subtitle">Intermedio</span>
+                        </div>
+
+                        <!-- 4 -->
+                        <div class="skills_data">
+                            <div class="skills_blob">
+                                <img src="./assets/img/nodejs-icon.svg" alt="Node js logo">
+                            </div>
+                            <h3 class="skills_name">Node js</h3>
+                            <span class="skills_subtitle">Intermedio</span>
+                        </div>
+                        
+                        <!-- 5 -->
+                        <div class="skills_data">
+                            <div class="skills_blob">
+                                <img src="./assets/img/mysql-3.svg" alt="">
+                            </div>
+                            <h3 class="skills_name">MySQL</h3>
+                            <span class="skills_subtitle">Intermedio</span>
+                        </div>
+
+                        <!-- 6 -->
+                        <div class="skills_data">
+                            <div class="skills_blob">
+                                <img src="./assets/img/mongodb-icon-1.svg" alt="Mongo db logo">
+                            </div>
+                            <h3 class="skills_name">Mongo DB</h3>
+                            <span class="skills_subtitle">Intermedio</span>
+                        </div>
+                        
+                    </div>
+
+                </div>
+            </div>
+
+
+        </section>
+
+        <!--================Section Projects=====================-->
+
+        <section class="projects" id="projects">
+            <h2 class="heading">Projects</h2>
+
+            <div class="projects-content">
+                <!--Project 1-->
+                <div class="box">
+                    <img src="./assets/img/NaturalMarket.png" alt="">
+                    <div class="main-box">
+                        <div class="box-text">
+                            <h5>Website Natural Market</h5>
+                        </div>
+                        <div class="box-icon">
+                            <a href="https://github.com/MLauraSal"><i class='bx bxl-github'></i></a>
+                        </div>
+                    </div>
+                    <h4>Proyecto FullStack Node js 2024</h4>
+                   
+                </div>
+
+                <!--Project 2-->
+                <div class="box">
+                    <img src="./assets/img/Screenshot 2024-04-25 at 00-19-16 Travellers Blog.png" alt="">
+                    <div class="main-box">
+                        <div class="box-text">
+                            <h5>Website Travellers Blog </h5>
+                        </div>
+                        <div class="box-icon">
+                            <a href="https://github.com/MLauraSal"><i class='bx bxl-github'></i></a>
+                        </div>
+                    </div>
+                    <h4>Curso FullStack Epica 2023</h4>
+                   
+                </div>
+
+                <!--Project 3-->
+                <div class="box">
+                    <img src="./assets/img/Screenshot 2024-04-25 at 00-25-01 Flix.png" alt="">
+                    <div class="main-box">
+                        <div class="box-text">
+                            <h5>Website Design</h5>
+                        </div>
+                        <div class="box-icon">
+                            <a href="https://github.com/MLauraSal"><i class='bx bxl-github'></i></a>
+                        </div>
+                    </div>
+                    <h4>Website Design for FlizTV</h4>
+                   
+                </div>
+
+                <!--Project 4-->
+                <div class="box">
+                    <img src="./assets/img/Screenshot 2024-04-25 at 00-40-28 Encriptador Alura.png" alt="">
+                    <div class="main-box">
+                        <div class="box-text">
+                            <h5>Encriptador</h5>
+                        </div>
+                        <div class="box-icon">
+                            <a href="https://github.com/MLauraSal"><i class='bx bxl-github'></i></a>
+                        </div>
+                    </div>
+                    <h4>Website Design for Alura Challenger 2024</h4>
+                   
+                </div>
+                  <!--Project 5-->
+                  <div class="box">
+                    <img src="./assets/img/BlogRincones.png" alt="Captura blog">
+                    <div class="main-box">
+                        <div class="box-text">
+                            <h5>Blog Website </h5>
+                        </div>
+                        <div class="box-icon">
+                            <a href="https://github.com/MLauraSal"><i class='bx bxl-github'></i></a>
+                        </div>
+                    </div>
+                    <h4>Website Project Ingenias Frontend 2024</h4>
+                   
+                </div>
+               
+            </div>
+        </section>
+
+       <!--================Section Education=====================-->
+
+        <section class="education" id="education">
+
+            
+            <h2 class="heading">Studies & Experience</h2>
+
+            <div class="timeline">
+                <div class="timeline-container right">
+                    
+                    <div class="timeline-content">
+                        <div class="tag">
+                            <h2>Codo a Codo </h2>
+                        </div>
+                        <div class="decs">
+                            <p>Programacion inicial con Python 2023</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-container left">
+                
+                    <div class="timeline-content">
+                        <div class="tag">
+                            <h2>Codo a Codo</h2>
+                        </div>
+                       <div class="decs">
+                        <p>Curso FullStack Python 2023</p>
+                       </div>
+                    </div>
+                </div>
+                <div class="timeline-container right">
+                
+                    <div class="timeline-content">
+                        <div class="tag">
+                            <h2>Curso Argentina Programa 4.0 </h2>
+                        </div>
+                       <div class="decs">
+                        <p>Desarrollador WEB con REACT J.Trayecto formativo Programación de la Universidad
+                            Tecnológica Nacional 2023 </p>
+                       </div>
+                    </div>
+                    
+    
+    
+                </div>
+                <div class="timeline-container left">
+                
+                    <div class="timeline-content">
+                        <div class="tag">
+                            <h2>Curso Argentina Programa 4.0</h2>
+                        </div>
+                       <div class="decs">
+                        <p>Curso FullStack Epica Primer Tramo 2023</p>
+                       </div>
+                    </div>
+    
+    
+    
+                </div>
+                <div class="timeline-container right">
+                
+                    <div class="timeline-content">
+                        <div class="tag">
+                            <h2>Curso Argentina Programa 4.0 </h2>
+                        </div>
+                       <div class="decs">
+                        <p>FullStack Tramo 2 Epica 2023 </p>
+                       </div>
+                    </div>
+                    
+    
+    
+                </div>
+                <div class="timeline-container left">
+                
+                    <div class="timeline-content">
+                        <div class="tag">
+                            <h2>Curso Alura</h2>
+                        </div>
+                       <div class="decs">
+                        <p>Curso Frontend con React 2024</p>
+                       </div>
+                    </div>
+    
+    
+    
+                </div>
+                <div class="timeline-container right">
+                    
+                    <div class="timeline-content">
+                        <div class="tag">
+                            <h2>Codo a Codo </h2>
+                        </div>
+                        <div class="decs">
+                            <p>FullStack Node js 2024</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-container left">
+                
+                    <div class="timeline-content">
+                        <div class="tag">
+                            <h2>Curso Fundación YPF Ingenias 2024</h2>
+                        </div>
+                       <div class="decs">
+                        <p>Curso Frontend</p>
+                       </div>
+                    </div>
+    
+    
+    
+                </div>
+
+
+            </div>
+            
+        </section>
+
+       <!--================Section Hobbies=====================-->
+
+        <section class="hobbies" id="hobbies">
+
+            <h2 class="heading">Hobbies</h2>
+
+            <div class="container">
+
+                <div class="row" id="hobbiesContainer">
+
+                    <!-- 1 -->
+                    <div class="bar">
+                        <div class="info">
+                            <img src="./assets/img/tejido-de-punto.png" alt="">
+                            <span>Tejer</span>
+                        </div>
+                    </div>
+
+                    <!-- 2 -->
+                    <div class="bar">
+                        <div class="info">
+                            <img src="./assets/img/tableta-de-dibujo.png" alt="">
+                            <span>Dibujar</span>
+                        </div>
+                    </div>
+
+                    <!-- 3 -->
+                    <div class="bar">
+                        <div class="info">
+                            <img src="./assets/img/ceramica.png" alt="">
+                            <span>Artesania</span>
+                        </div>
+                    </div>
+
+                    <!-- 4 -->
+                    <div class="bar">
+                        <div class="info">
+                            <img src="./assets/img/cantar.png" alt="">
+                            <span>Cantar</span>
+                        </div>
+                    </div>
+
+                    <!-- 5 -->
+                    <div class="bar">
+                        <div class="info">
+                            <img src="./assets/img/mezcla.png" alt="">
+                            <span>Cocinar</span>
+                        </div>
+                    </div>
+
+                    <!-- 6 -->
+                    <div class="bar">
+                        <div class="info">
+                            <img src="./assets/img/juego.png" alt="">
+                            <span>Enigmas</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!--================Section Contact=====================-->
+        <section class="contact" id="contact">
+            <h2 class="heading">Contact</h2>
+
+
+            <form action="#">
+
+                <div class="input-group">
+                    <div class="input-box">
+                        <input type="text" placeholder="Full Name" required>
+                        <input type="email" placeholder="Email" required>
+                    </div>
+                    <div class="input-box">
+                        <input type="number" placeholder="Phone Number" required>
+                        <input type="text" placeholder="Subject">
+                    </div>
+                </div>
+
+                <div class="input-group-2">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                    <input type="submit" value="Send Message" class="btn">
+                </div>
+            </form>
+        </section>
+        
     </main>
-    <footer>
-        <div class="copyright">
-            &copy; 2024 <span>Salgueiro Mariana</span> - Todos los Derechos Reservados.
+    <!--================FOOTER=====================-->
+    <footer class="footer">
+        
+        <div class="social">
+            <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+            <a href="#"><i class='bx bxl-linkedin-square'></i></a>
+            <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+            <a href="https://github.com/MLauraSal"><i class='bx bxl-github'></i></a>
         </div>
+      
+
+        <p class="copyright">&copy; copyright 2024 - PortFolio- Desarrollado por Salguiero Mariana - </p>
     </footer>
+    
 </body>
+
+
 </html>
