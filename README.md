@@ -42,7 +42,7 @@ JavaScript es clave para la interacción y dinamismo en la página. Algunas func
 
 1. **Clonar el repositorio**:
     ```bash
-    git clone https://github.com/usuario/proyecto-ecommerce-indumentaria-frontend.git
+    git clone 
     ```
 
 2. **Abrir en tu navegador**:
